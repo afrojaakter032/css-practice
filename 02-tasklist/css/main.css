@@ -1,0 +1,74 @@
+.checklist {
+    height: 100px;
+    width: 180px;
+    border-radius: 20px;
+    box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    margin: 0px;
+    
+}
+
+.mr {
+    margin-right: 20px;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+
+/* pos receipt start here */
+
+.header-section {
+    text-align: center;
+
+}
+
+.header-title {
+    font-size: 25px;
+}
+
+.bill-details.tbody {
+
+
+}
+.bill-details tbody tr td:last-child {
+    align-items: end;
+}
+.items .heading {
+    font-size: 12.5px;
+    text-transform: capitalize;
+    border-top:1px solid black;
+    margin-bottom: 4px;
+    border-bottom: 1px solid black;
+    vertical-align: middle;
+}
+
+.items thead tr th:first-child,
+.items tbody tr td:first-child {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    word-break: break-all;
+    text-align: left;
+}
+
+.items td {
+    font-size: 12px;
+    text-align: right;
+    vertical-align: top;
+    border-bottom: 1px dashed black !important;
+}
+
+.items .fw-bold {
+    font-weight: bold;
+}
+.font-size p {
+    font-size: 10px;
+    line-height: 3px;
+}
+
+.footer-section p {
+    text-align: center;
+    font-size: 15px;
+}
