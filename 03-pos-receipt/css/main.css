@@ -1,0 +1,70 @@
+/* pos receipt start here */
+body {
+    margin: 0;
+    padding: 15px;
+    font-family: "PT Serif", serif;
+    font-size: 12px;
+
+}
+@page {
+    size: 2.8in 11in;
+    margin-top: 0cm;
+    margin-left: 0cm;
+    margin-right: 0cm;
+}
+.header-section {
+    text-align: center;
+
+}
+
+.header-title {
+    font-size: 25px;
+}
+
+.bill-details {
+width: 100%;
+
+}
+.table {
+    width: 100%;
+}
+.table tbody tr td:first-child {
+    text-align: left;
+
+}
+.table .heading-left {
+    font-size: 12.5px;
+    text-transform: capitalize;
+    border-top:1px solid black;
+    margin-bottom: 4px;
+    border-bottom: 1px solid black;
+    text-align: left;
+}
+.table .heading-right {
+    font-size: 12.5px;
+    text-transform: capitalize;
+    border-top:1px solid black;
+    margin-bottom: 4px;
+    border-bottom: 1px solid black;
+    text-align: right;
+}
+
+.table td {
+    font-size: 12px;
+    text-align: right;
+    vertical-align: top;
+    border-bottom: 1px dashed black !important;
+}
+
+.table .fw-bold {
+    font-weight: bold;
+}
+.font-size p {
+    font-size: 10px;
+    line-height: 3px;
+}
+
+.footer-section p {
+    text-align: center;
+    font-size: 15px;
+}
