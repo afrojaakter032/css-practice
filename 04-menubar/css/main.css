@@ -3,16 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: "Poppins", sans-serif;
+}
 
 .sidebar {
     background: #151515;
     color: #EEF7FF;
-    height: 100%;
+    height: 100vh;
     width: 200px;
     font-size: 12px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     padding-left: 10px;
+    position: relative;
+
 }
 
 .sidebar-header {
@@ -29,6 +34,15 @@
     padding: 5px;
 }
 
+.sidebar-logo {
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.sidebar-menu-list-btn {
+    font-size: 18px;
+}
 .search-bar {
     position: relative;
 
@@ -37,7 +51,7 @@
 .search-bar i {
     position: absolute;
     right: 55px;
-    top: 13px;
+    top: 10px;
     z-index: 99999;
 
 
@@ -49,9 +63,73 @@
    border-radius: 10px;
    width: 150px;
    margin-left: 10px;
+   border: none;
 }
-
+.mt {
+    margin-top: 10px;
+}
 .sidebar-menu {
+    padding: 10px;
+    list-style: none;
+
+}
+.nav-link {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    line-height: 20px;
+    padding: 8px;
+    align-items: center;
+}
+.sidebar-item .nav-link{
     list-style: none;
     text-decoration: none;
+}
+
+.sidebar-menu .sidebar-item .nav-link {
+    color: #EEF7FF;
+}
+.sidebar-menu .sidebar-item .nav-link:hover {
+    background-color: #EEF7FF;
+    border-radius: 10px;
+    color: #151515;
+    width: 70%;
+}
+.sidebar-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    left: 0;
+}
+
+.footer-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: #31363F;
+    padding: 10px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.footer-text {
+    font-size: 8px;
+}
+
+.home-content {
+    left: 200px;
+    height: 100%;
+    width: calc(100% - 210px);
+    color: #151515;
+    position: absolute;
+    top: 0px;
+    left: 210px;
+}
+
+.home-content .text {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #151515;
 }
