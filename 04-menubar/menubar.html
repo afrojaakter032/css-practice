@@ -32,79 +32,49 @@
                 <li class="sidebar-item mt">
                     <a href="" class="nav-link">
                         <i class="ph ph-command"></i>
-                        <div>Deshboard</div>
+                        <div class="sidebar-menu-text">Deshboard</div>
                     </a>
                 </li>
                 <li class="sidebar-item mt">
                     <a href="" class="nav-link">
                         <i class="ph ph-user"></i>
-                        <div>User</div>
+                        <div class="sidebar-menu-text">User</div>
                     </a>
                 </li>
                 <li class="sidebar-item mt">
                     <a href="" class="nav-link">
                         <i class="ph ph-chat-circle"></i>
-                        <div>Message</div>
+                        <div class="sidebar-menu-text">Message</div>
                     </a>
                 </li>
                 <li class="sidebar-item mt">
                     <a href="" class="nav-link">
                         <i class="ph ph-chart-pie-slice"></i>
-                        <div>Analaycis</div>
+                        <div class="sidebar-menu-text">Analaycis</div>
                     </a>
                 </li>
                 <li class="sidebar-item mt">
                     <a href="" class="nav-link">
                         <i class="ph ph-file"></i>
-                        <div>File Manager</div>
+                        <div class="sidebar-menu-text">File Manager</div>
                     </a>
                 </li>
                 <li class="sidebar-item mt">
                     <a href="" class="nav-link">
                         <i class="ph ph-shopping-bag"></i>
-                        <div>order</div>
+                        <div class="sidebar-menu-text">order</div>
                     </a>
                 </li>
                 <li class="sidebar-item mt">
                     <a href="" class="nav-link">
                         <i class="ph ph-heart"></i>
-                        <div>Saved</div>
+                        <div class="sidebar-menu-text">Saved</div>
                     </a>
                 </li>
                 <li class="sidebar-item mt">
                     <a href="" class="nav-link">
                         <i class="ph ph-gear"></i>
-                        <div>Setting</div>
-                    </a>
-                </li>
-                <li class="sidebar-item mt">
-                    <a href="" class="nav-link">
-                        <i class="ph ph-gear"></i>
-                        <div>Setting1</div>
-                    </a>
-                </li>
-                <li class="sidebar-item mt">
-                    <a href="" class="nav-link">
-                        <i class="ph ph-gear"></i>
-                        <div>Setting2</div>
-                    </a>
-                </li>
-                <li class="sidebar-item mt">
-                    <a href="" class="nav-link">
-                        <i class="ph ph-gear"></i>
-                        <div>Setting3</div>
-                    </a>
-                </li>
-                <li class="sidebar-item mt">
-                    <a href="" class="nav-link">
-                        <i class="ph ph-gear"></i>
-                        <div>Setting4</div>
-                    </a>
-                </li>
-                <li class="sidebar-item mt">
-                    <a href="" class="nav-link">
-                        <i class="ph ph-gear"></i>
-                        <div>Setting5</div>
+                        <div class="sidebar-menu-text">Setting</div>
                     </a>
                 </li>
             </ul>
@@ -125,5 +95,15 @@
         <div class="text">Home Content</div>
     </div>
     
+        <script>
+
+
+            document.querySelector(".sidebar-menu-list-btn").addEventListener("click", function() {
+                const sidebar = document.querySelector(".sidebar");
+                sidebar.classList.toggle("sidebar-mini");
+
+            });
+
+        </script>
 </body>
 </html>
